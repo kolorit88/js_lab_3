@@ -8,7 +8,6 @@ function multiplyNumeric(obj) {
     }
 }
 
-// Проверка:
 let data = {
     width: 100,
     sizes: {
@@ -18,4 +17,6 @@ let data = {
     title: "Menu"
 };
 
+console.log(data)
 multiplyNumeric(data);
+console.log(data)
